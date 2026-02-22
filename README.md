@@ -82,7 +82,3 @@ aitutor/
     │   └── page.tsx
     ├── tailwind.config.ts
     └── Dockerfile
-'''
-
-<div align="center">
-<h2 style="margin: 12px 0 6px; font-size: 3.4rem;">Made With 💜</h2>
