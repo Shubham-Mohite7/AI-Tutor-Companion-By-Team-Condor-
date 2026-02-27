@@ -8,6 +8,48 @@ __pycache__/
 *.pyc
 venv/
 .env
+.env.save
+.env.local
+.env.production
 
 # Mac
 .DS_Store
+
+# Security - API keys and secrets
+*.key
+*.pem
+*.p12
+secrets/
+credentials/
+api-keys/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+*.tgz
+*.tar.gz
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage reports
+coverage/
+.nyc_output/
+.coverage
+
+# Temporary files
+tmp/
+temp/
+.tmp/
