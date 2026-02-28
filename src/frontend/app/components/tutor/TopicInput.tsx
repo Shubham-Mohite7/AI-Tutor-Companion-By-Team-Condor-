@@ -24,7 +24,7 @@ export function TopicInput({ onSubmit, loading, error }: Props) {
             value={topic}
             onChange={(e) => setTopic(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && topic.trim() && onSubmit(topic.trim(), language)}
-            placeholder="e.g. Photosynthesis, Newton's Laws, French Revolution..."
+            placeholder="e.g. Photosynthesis, French Revolution, Solar System..."
             className="w-full bg-white border-2 border-gray-600 rounded-xl px-4 py-3 text-[15px] text-gray-800 placeholder:text-gray-500 focus:outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-500/10 transition-all"
           />
         </div>
@@ -35,6 +35,8 @@ export function TopicInput({ onSubmit, loading, error }: Props) {
           <select
             value={language}
             onChange={(e) => setLanguage(e.target.value as Language)}
+            aria-label="Select language"
+            title="Select language"
             className="bg-white border-2 border-gray-600 rounded-xl px-4 py-3 text-[15px] text-gray-800 focus:outline-none focus:border-brand-500 focus:ring-2 focus:ring-brand-500/10 transition-all"
           >
             <option value="en">English</option>
