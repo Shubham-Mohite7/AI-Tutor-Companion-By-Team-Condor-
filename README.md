@@ -9,7 +9,7 @@
   <h3 style="color: #64748B; font-weight: 500;">AI-Powered Tutor for Indian Students</h3>
   
   <p style="font-size: 1.35rem; max-width: 620px; margin: 20px auto;">
-    Enter <strong>any topic</strong> → Receive a crystal-clear explanation → Take a smart 10-question mock test grounded in what you just learned.
+    Enter <strong>any topic</strong> → Receive a crystal-clear explanation → Take a smart 10-question mock test grounded in what you just learned
   </p>
 
   <img src="https://api.pikwy.com/web/69a2a331decb0d637029bd48.png" 
