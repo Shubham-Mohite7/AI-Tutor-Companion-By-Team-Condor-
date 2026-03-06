@@ -35,7 +35,7 @@ async def _call_openrouter(messages: list[dict]) -> str:
         "model": MODEL,
         "messages": messages,
         "temperature": 0.7,
-        "max_tokens": 2000,
+        "max_tokens": 1000,
     }
     
     try:
